@@ -17,6 +17,13 @@ require.config({
     name: "streamhub-wall",
     location: "./src"
   },{
+    name: "streamhub-ui",
+    location: "lib/streamhub-ui/src"
+  },{
+    name: "streamhub-share",
+    location: "lib/streamhub-share/src",
+    main: "share-button"
+  },{
     name: "streamhub-sdk",
     location: "lib/streamhub-sdk/src/"
   },{
@@ -47,6 +54,9 @@ require.config({
   },{
     name: 'livefyre-auth',
     location: 'lib/livefyre-auth/src'
+  },{
+    name: "livefyre-bootstrap",
+    location: "lib/livefyre-bootstrap/src"
   }],
   shim: {
     jquery: {
